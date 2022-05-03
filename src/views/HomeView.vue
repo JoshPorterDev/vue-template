@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Hello from "../components/Hello.vue";
+</script>
 
 <template>
   <main>
-    <h1>Home Page</h1>
+    <Hello />
   </main>
 </template>
